@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K205Oleev", "K205Oleev\K205Oleev.csproj", "{F5A0F039-A48D-48A6-8563-20AE504CED76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csproj", "{BF0C5BC9-A856-45D5-B1BF-0F94021C58D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{88A6CF29-1780-49C0-B116-1AB20A62E749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5A0F039-A48D-48A6-8563-20AE504CED76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A0F039-A48D-48A6-8563-20AE504CED76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A0F039-A48D-48A6-8563-20AE504CED76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A0F039-A48D-48A6-8563-20AE504CED76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0C5BC9-A856-45D5-B1BF-0F94021C58D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0C5BC9-A856-45D5-B1BF-0F94021C58D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0C5BC9-A856-45D5-B1BF-0F94021C58D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0C5BC9-A856-45D5-B1BF-0F94021C58D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A6CF29-1780-49C0-B116-1AB20A62E749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A6CF29-1780-49C0-B116-1AB20A62E749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A6CF29-1780-49C0-B116-1AB20A62E749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A6CF29-1780-49C0-B116-1AB20A62E749}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5C20F1F-0122-4646-976B-0430298FAF95}
+	EndGlobalSection
+EndGlobal

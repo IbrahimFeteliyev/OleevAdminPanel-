@@ -1,0 +1,68 @@
+﻿@model IEnumerable<OurExpertiseLanguage>
+
+
+
+
+<!-- DataTales Example -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary"><a asp-action="create">Create</a></h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead> 
+                                        <tr> 
+                                            <th>Title</th> 
+                                            <th>Description</th> 
+                                            <th>SubTitle</th> 
+                                            <th>SubDescription</th> 
+                                             <th>SEO</th> 
+                                            <th>Photo</th>
+                                            <th>Icon</th>
+                                            <th></th> 
+                                            
+                                        </tr> 
+                                    </thead> 
+                                    <tfoot> 
+                                        <tr> 
+                                            <th>Title</th> 
+                                            <th>Description</th> 
+                                            <th>SubTitle</th> 
+                                            <th>SubDescription</th> 
+                                             <th>SEO</th> 
+                                            <th>Photo</th>
+                                            <th>Icon</th>
+                                            <th></th> 
+                                             
+                                        </tr> 
+                                    </tfoot> 
+                                    <tbody> 
+                                        @foreach (var item in Model)
+	                                     {
+		                                     <tr> 
+                                                <td>@item.Title</td> 
+                                                <td>@Html.Raw(@item.Description)</td> 
+                                                <td>@item.SubTitle</td> 
+                                                <td>@Html.Raw(@item.SubDescription)</td> 
+                                                <td>@item.SEO</td>
+                                                <td>
+                                                    <img width="100" src="@item.OurExpertise.PhotoURL"/>
+                                                </td>  
+                                                <td>
+                                                    <i class="@item.OurExpertise.Icon"></i>
+                                                </td> 
+                                                
+                                                <td>
+                                                    
+                                                    <a href="/admin/ourexpertise/edit/@item.OurExpertise.ID" class="btn btn-warning">Edit</a>
+                                                </td> 
+                                            </tr> 
+	                                     }
+                                        
+                                  
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
